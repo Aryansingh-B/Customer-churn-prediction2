@@ -1,0 +1,35 @@
+feature,importance
+Contract_Two year,0.22572224
+InternetService_Fiber optic,0.19168194
+Contract_One year,0.11343666
+Dependents,0.08672853
+OnlineSecurity_No internet service,0.075158484
+InternetService_No,0.06554369
+OnlineSecurity_Yes,0.027547324
+TechSupport_Yes,0.017426457
+PaymentMethod_Credit card (automatic),0.01715946
+tenure,0.014725195
+NumServices,0.014602879
+PaymentMethod_Mailed check,0.012918139
+OnlineBackup_Yes,0.01160417
+StreamingMovies_Yes,0.0113977
+CLV,0.010013447
+MonthlyCharges,0.009897922
+TotalCharges,0.0093449
+DeviceProtection_Yes,0.009164836
+MultipleLines_No phone service,0.0085927695
+PhoneService,0.007866399
+Gender,0.007692498
+AvgMonthlySpend,0.0072896336
+MultipleLines_Yes,0.0072198156
+SeniorCitizen,0.0071920506
+CLTV_given,0.0066874437
+StreamingTV_Yes,0.0063995467
+PaperlessBilling,0.006397656
+Partner,0.0058115004
+PaymentMethod_Electronic check,0.0047767656
+DeviceProtection_No internet service,0.0
+OnlineBackup_No internet service,0.0
+StreamingTV_No internet service,0.0
+StreamingMovies_No internet service,0.0
+TechSupport_No internet service,0.0

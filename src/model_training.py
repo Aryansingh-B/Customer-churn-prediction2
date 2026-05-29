@@ -1,10 +1,10 @@
-import pandas as pd 
+import pandas as pd
 import numpy as np
 import joblib
-import os 
+import os
 import json
 from xgboost import XGBClassifier
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import (
     classification_report, roc_auc_score,
     confusion_matrix, f1_score, precision_score, recall_score
@@ -14,8 +14,9 @@ from imblearn.over_sampling import SMOTE
 
 from src.data_preprocessing import run_preprocessing_pipeline
 
+
 def apply_smote(X_train, y_train):
-      """Handle class imbalance — churn is ~26% in this dataset."""
+    """Handle class imbalance — churn is ~26% in this dataset."""
     sm = SMOTE(random_state=42)
     X_res, y_res = sm.fit_resample(X_train, y_train)
     print(f"After SMOTE → Churn rate: {y_res.mean():.2%}")
